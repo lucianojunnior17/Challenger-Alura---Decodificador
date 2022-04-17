@@ -1,11 +1,11 @@
  
- # <h1> Decodificaror de texto Alura Oracale </h1>
+ # <h1 align="center"> Decodificaror de texto Alura Oracale </h1>
 
 Aplicativo de criptografia, desenvolvido para o desafio de Alura.
 
 <br/>
 <div> 
-<h2align ="cebter">
+<h2 align="center">
     <img src="app/assets/chave.jpg" alt="Chave Decodificada" width="400" height="200">
 </h2>
 </div>
