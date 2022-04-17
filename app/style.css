@@ -1,0 +1,215 @@
+/* reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Colors variables */
+:root {
+  --bg-lightblue: #F3F5FC;
+  --bg-darkblue: #0A3871;
+
+  --text-darkblue: #0A3871;
+  --text-white: #fff;
+  --text-gray400: #495057;
+  --text-red: red;
+
+  --btn-grey: #D8DFE8;
+  --btn-darkblue: #0A3871;
+}
+
+
+
+body {
+  background-color: var(--bg-lightblue);
+}
+
+/* main section */
+.painel {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.2fr 2fr 0.7fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 7px;
+  grid-row-gap: 15px;
+  padding: 1em;
+}
+
+.painel .logo-section{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  justify-items: start;
+  align-content: start;
+  align-items: start;
+}
+
+.painel .logo{
+  display: flex;
+}
+
+.painel .user-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 4em;
+  height: 85%;
+}
+
+.painel .user-section input {
+  border: 0px;
+  background-color: var(--bg-lightblue);
+  height: 48px;
+  font-weight: bold;
+  line-height: 48px;
+  font-size: 20px;
+  color: var(--text-darkblue) !important; 
+}
+
+.painel .user-section input:focus {
+  outline: none;
+}
+
+.painel .info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  justify-items: stretch;
+  text-align: start;
+  padding: 2em;
+}
+
+.painel .info-section > * {
+  margin-top: 2rem;
+}
+
+.painel .info-section .info-text {
+  font-size: 1.4rem;
+  color: var(--text-gray400);
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.painel .empty{
+  display: flex;
+  justify-content: center !important;
+  text-align: center !important;
+  
+  padding: 0;
+}
+
+.painel .empty .info-text {
+  font-size: 0.9rem !important;
+  pointer-events:none;
+}
+
+.box-tip{
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  align-content: center;
+}
+
+.tip{
+  font-size: 14px;
+  color: gray;
+  font-weight: 400;
+  margin-left: 0.5em;
+}
+
+/* buttons */
+
+.btn-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.btn-small{
+  display: block;
+  width: 10%;
+  min-width: 100px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background-color: white;
+  color: var(--text-red) !important; 
+  border: 1px solid var(--text-red) !important; 
+}
+
+.btn{
+  display: block;
+  width: 48%;
+  height: 65px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+#btn-codificar{
+  background-color: var(--bg-darkblue);
+  color: var(--text-white);
+}
+
+#btn-decodificar{
+  background-color: var(--btn-grey);
+  color: var(--text-darkblue);
+}
+
+/* border */
+
+.border{
+  border: 1px solid #0A3871;
+  border-radius: 50px;
+}
+
+.card{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: #FFF;
+  border-radius: 5px;
+}
+
+
+/* funcionalidades */
+
+.hide{
+  display: none;
+}
+
+
+/* RES */
+@media (max-width: 1168px) {
+  .painel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .painel .logo-section{
+    display: flex;
+    flex: 1;
+    justify-content: start;
+  }
+
+  .painel .user-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0em;
+    height: 100%;
+  }
+
+  .painel .info-section{
+    display: flex !important;
+    justify-content: space-around;
+    padding: 0.7em;
+    word-wrap: break-word;
+  }
+
+  .painel .info-section #empty-image{
+    display: none;
+  }
+
+}
