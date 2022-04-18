@@ -1,23 +1,32 @@
-[index.html] {app/index.html}
-
-[index.html]app/index.html
-
 
  # <h1 align="center"> Decodificaror de texto Alura Oracale </h1>
+ 
 
 Aplicativo de criptografia, desenvolvido para o desafio de Alura.
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 <br/>
 <div> 
 <h2 align="center">
-    <img src="app/assets/chave.jpg" alt="Chave Decodificada" width="400" height="200">
+    <img src="docs/assets/chave.jpg" alt="Chave Decodificada" width="400" height="200">
 </h2>
 </div>
-
 <hr>
 <br/><br/>
 
+<div align="justify">    
 
+🚀 Tecnologias utilizadas
+
+✔️ HTML5
+
+✔️ CSS3
+
+✔️ JavaScript
+ </div>
+ 
+</div>
 
 ## Descrição
 
@@ -44,8 +53,15 @@ gaitober" => "gato"
 * A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções
 * O resultado deve ser exibido na tela.
 <br/><br/>
+<hr>
+<p align="center"> 👀 Visualize o projeto   
+    <a href="https://lucianojunnior17.github.io/Challenger-Alura---Decodificador/">Aqui</a>
+ </p>
+ <hr>
 
 ### Extras:
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
+
+:construction: Projeto em construção :construction:
 
 
