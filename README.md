@@ -15,6 +15,18 @@ Aplicativo de criptografia, desenvolvido para o desafio de Alura.
 </div>
 <hr>
 <br/><br/>
+<div> 
+ <div align="center">
+  <h2> Imagem do Projeto</h2>
+  <\h2>
+ 
+<h2 align="center">
+    <img src="docs/assets/projeto_decodificador.jpg" alt="imagem do Projeto" width="400" height="200">
+</h2>
+</div>
+
+
+
 
 <div align="justify">    
 
